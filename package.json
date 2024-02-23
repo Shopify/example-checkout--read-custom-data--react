@@ -1,0 +1,28 @@
+{
+  "name": "read-custom-data-react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.50.2",
+    "@shopify/cli": "3.50.2"
+  },
+  "trustedDependencies": [
+    "@shopify/plugin-cloudflare"
+  ],
+  "contributors": [
+    "John Persano",
+    "Ren Chaturvedi"
+  ],
+  "private": true,
+  "workspaces": [
+    "extensions/*"
+  ]
+}
