@@ -4,6 +4,7 @@ import {
   useCartLineTarget,
   Text,
   useAppMetafields,
+  reactExtension,
 } from "@shopify/ui-extensions-react/checkout";
 // [END read-custom-data.imports]
 
