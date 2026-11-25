@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived and receives no updates or security fixes. Use [example-checkout--read-custom-data--preact](https://github.com/Shopify/example-checkout--read-custom-data--preact) instead.
+
 # Shopify app example: Read custom data
 
 This repo contains an example app that uses [checkout UI extensions](https://shopify.dev/docs/api/checkout-ui-extensions) to read custom data from metafields using React.
